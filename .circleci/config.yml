@@ -52,17 +52,6 @@ jobs:
       - run:
           name: do stuff
           command: |
-          . venv/bin/activate
           git add .
-      
-      - run:
-          name: do more stuff
-          command: |
-          . venv/bin/activate
-          git commit -m "vxjkgc"
-      - run:
-          name: do even more stuff
-          command: |
-          . venv/bin/activate
+          git commit -m "cfsdac"
           git push origin master
-          
