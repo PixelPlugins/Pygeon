@@ -49,4 +49,20 @@ jobs:
       - store_artifacts:
           path: test-reports
           destination: test-reports
+      - run:
+          name: do stuff
+          command: |
+          . venv/bin/activate
+          git add .
+      
+      - run:
+          name: do more stuff
+          command: |
+          . venv/bin/activate
+          git commit -m "vxjkgc"
+      - run:
+          name: do even more stuff
+          command: |
+          . venv/bin/activate
+          git push origin master
           
