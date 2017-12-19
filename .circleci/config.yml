@@ -52,6 +52,6 @@ jobs:
       - run:
           name: do stuff
           command: |
-          git add .
-          git commit -m "cfsdac"
-          git push origin master
+              git add .
+              git commit -m "cfsdac"
+              git push origin master
